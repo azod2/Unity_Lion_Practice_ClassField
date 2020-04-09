@@ -12,8 +12,8 @@ public class EnemyManager : MonoBehaviour
     void Start()
     {
         //取得數據
-        print("怪物一號的魔力" + enemy1.mp);
-        print("怪物二號的裝備名稱" + enemy2.armor);
+        print("怪物一號的魔力 : " + enemy1.mp);
+        print("怪物二號的裝備名稱 : " + enemy2.armor);
 
         //設定數據
         enemy1.hp = 100;

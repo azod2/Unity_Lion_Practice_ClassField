@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
+    
     [Header("血量"), Tooltip("怪物的血量"), Range(50, 500)]
     public int hp;
 
