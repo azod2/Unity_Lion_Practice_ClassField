@@ -9,6 +9,6 @@ public class MonsterManager : MonoBehaviour
 
     public void CreatMonster(int index)
     {
-        Instantiate(monsters[index], new Vector3(1.43f, -1.36f, 0), Quaternion.identity);
+        Instantiate(monsters[index], new Vector3(-5f, 0.5f, 0), Quaternion.identity);
     }
 }
